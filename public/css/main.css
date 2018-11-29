@@ -1,0 +1,26 @@
+@import 'base.css';
+
+.header{background-image: url("../img/bg.png"); background-repeat: no-repeat; background-size: cover; padding-bottom: 750px; position: relative; overflow: hidden;}
+.header_wrap{width: 100%; max-width: 1200px; height: 100%; margin: 0 auto;}
+.navi{text-align: right; color: #0f54ae; font-weight: bold; font-size: 0.875em; padding:1em 0;}
+.navi > li{display: inline-block;padding: 0 0.375em;}
+.navi > li:hover{color: #000;}
+
+.navs{width: 100%; background-color: rgba(255,255,255,0.2);}
+.navs_wrap{width: 100%; max-width: 1200px; height: 100%; margin: 0 auto;}
+.top_logo{float: left; width: 20%; padding: 1em;}
+.menu{color: #fff; font-weight: bold;}
+.menu > li{float: left; padding: 2.25em 1.125em;}
+.menu_rt{text-align: right; padding-top: 2.25em;}
+.menu_rt > li{display: inline-block;}
+
+.leaf01{position: absolute; top: 30%; right: 28%;}
+.leaf02{position: absolute; top: 40%; right: 40%}
+.wt_melon{position: absolute; top: 53%; right: 23%;}
+.juice{position: absolute; bottom: 0; right: 0;}
+
+.text{position: absolute; top: 40%; left: 18%;}
+.sub_title01{padding-bottom: 1em;}
+.title{padding-bottom: 1em;}
+.sub_title02{text-align: center; padding-bottom: 1.25em;}
+.tit{text-align: center; font-size: 16px; font-weight: bold; color: #f13e54;}
