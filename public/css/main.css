@@ -1,26 +1,45 @@
 @import 'base.css';
+.wrap{width: 100%; max-width: 1200px; margin: 0 auto;}
 
-.header{background-image: url("../img/bg.png"); background-repeat: no-repeat; background-size: cover; padding-bottom: 750px; position: relative; overflow: hidden;}
-.header_wrap{width: 100%; max-width: 1200px; height: 100%; margin: 0 auto;}
+.header{background-color: #72cdff; background-image: url("../img/bg.png"),url("../img/back_bg.jpg"); background-size: cover, initial; background-repeat: no-repeat; background-position: center top, center center; padding-bottom: 750px; position: relative; overflow: hidden;}
+.header_wrap{width: 100%; max-width: 1200px; margin: 0 auto;}
 .navi{text-align: right; color: #0f54ae; font-weight: bold; font-size: 0.875em; padding:1em 0;}
 .navi > li{display: inline-block;padding: 0 0.375em;}
 .navi > li:hover{color: #000;}
 
 .navs{width: 100%; background-color: rgba(255,255,255,0.2);}
-.navs_wrap{width: 100%; max-width: 1200px; height: 100%; margin: 0 auto;}
+.navs_wrap{width: 100%; max-width: 1200px; margin: 0 auto;}
 .top_logo{float: left; width: 20%; padding: 1em;}
 .menu{color: #fff; font-weight: bold;}
-.menu > li{float: left; padding: 2.25em 1.125em;}
-.menu_rt{text-align: right; padding-top: 2.25em;}
+.menu > li{float: left; padding: 2em 1.125em 1.5em 1.125em;}
+.menu_rt{text-align: right; padding-top: 2em;}
 .menu_rt > li{display: inline-block;}
 
-.leaf01{position: absolute; top: 30%; right: 28%;}
-.leaf02{position: absolute; top: 40%; right: 40%}
-.wt_melon{position: absolute; top: 53%; right: 23%;}
+.leaf01{position: absolute; top: 20%; right: 19%;}
+.leaf02{position: absolute; top: 30%; right: 40%}
+.wt_melon{position: absolute; top: 43%; right: 23%;}
 .juice{position: absolute; bottom: 0; right: 0;}
 
-.text{position: absolute; top: 40%; left: 18%;}
+.text{position: absolute; top: 30%; left: 18%;}
 .sub_title01{padding-bottom: 1em;}
 .title{padding-bottom: 1em;}
 .sub_title02{text-align: center; padding-bottom: 1.25em;}
-.tit{text-align: center; font-size: 16px; font-weight: bold; color: #f13e54;}
+
+.tit{text-align: center; font-weight: bold; color: #f13e54;font-family: 'Jua', sans-serif;}
+
+.section{background-image: url("../img/juice_bg.png"); background-repeat: no-repeat; background-position: 108% 75%;}
+
+.choice{width: 100%; padding: 5.625rem 0;}
+.choice_tit{text-align: center;}
+.choice_tit > span{font-family: 'Yeon Sung', cursive; font-size: 1.625em;}
+.choice_list{text-align: center; padding: 3.125rem 0;}
+.choice_list > li{float: left; width: 24.25%; border: 1px solid #ccc; margin-right: 1%; padding: 5%;}
+.choice_list > li:hover{box-shadow: 4px 4px 5px rgba(0,0,0,0.3);}
+.choice_list > li:last-child{margin-right: 0%;}
+.choice_list > li > .name{color: #030303; font-size: 1.25em; font-weight: bold;}
+.choice_list > li > .eng{color: #676767; font-size: 1em;}
+
+.hole{width: 100%; background-color: #f1f1f1; padding: 5.625rem 0;}
+.hole_tit{text-align: center;}
+.hole_tit > span{font-family: 'Yeon Sung', cursive; font-size: 1.625em; padding-top: 5em;}
+.hole_sub_tit{color: #999;}
