@@ -125,3 +125,5 @@
 .foot_logo{float: left; width: 20%; padding: 3rem 1em;}
 .foot_info{padding: 3.125rem 0; color: #fff; font-weight: bold;}
 .foot_info > span{display: block;}
+
+@media screen (max-width:)
