@@ -14,6 +14,8 @@
 .menu > li{float: left; padding: 2em 1.125em 1.5em 1.125em; cursor: pointer;}
 .menu_rt{text-align: right; padding-top: 2em;}
 .menu_rt > li{display: inline-block;}
+.drop_menu{display: none;}
+
 
 .leaf01{position: absolute; top: 20%; right: 19%;}
 .leaf02{position: absolute; top: 30%; right: 40%}
@@ -24,14 +26,51 @@
 .sub_title01{padding-bottom: 1em;}
 .title{padding-bottom: 1em;}
 .sub_title02{text-align: center; padding-bottom: 1.25em;}
-
 .tit{text-align: center; font-weight: bold; color: #f13e54;font-family: 'Jua', sans-serif;}
 
+.section{background: url(../img/juice_bg.png),url(../img/camera.png) no-repeat, no-repeat 108% 30%,50% 50%;}
+.choice{width: 100%; padding: 6.25rem 0; background-color: #fff;}
+.choice_title{text-align: center;}
+.choice_title > span{font-family: 'Yeon Sung', cursive; font-size: 1.625em;}
+.choice_list{text-align: center; padding: 3.125rem 0;}
+.choice_list > li{float: left; width: 24.25%; border: 1px solid #ccc; margin-right: 1%; padding: 5%; cursor: pointer;}
+.choice_list > li:last-child{margin-right: 0%}
+.choice_list > li > .name{color: #030303; font-size: 1.25em; font-weight: bold; margin-top: 2rem; margin-bottom: 0;}
+.choice_list > li > .eng{color: #676767; font-size: 1em;}
+
+.hole{width: 100%; padding: 6.25rem 0; background-color: #f1f1f1;}
+.hole_title{text-align: center;}
+.hole_title > span{font-family: 'Yeon Sung', cursive; font-size: 1.625em;}
+.hole_sub_tit{color: #999; padding-top: 1rem;}
+.hole_list{padding-top: 5.25rem;}
+.hole_list > li{width: 32.66666666666667%;float: left; padding-right: 1%; position: relative; cursor: pointer;}
+.hole_list > li > img{animation-duration: 1s; animation-fill-mode: forwards; opacity: 0;}
+.hole_list > li:nth-child(1),.hole_list > li:nth-child(2),.hole_list > li:nth-child(3){padding-bottom: 1%;}
+.hole_list > li > .black_bg{background-color: rgba(0, 0, 0, 0.8); width: 100%; height: 100%; color: #fff; border: 1px solid #f00;}
+.hole_list > li .hole_icon{position: absolute; top: 0.3125rem; left: 0.3125rem; width: 5%; height: 5%;}
+
+@keyframes holeAni{
+    0%{transform: scale(1);}
+    100%{transform: scale(1.2);}
+}
+@keyframes holeBack{
+    0%{transform: scale(1.2);}
+    100%{transform: scale(1);}
+}
+
+.store{background: url(../img/store.png) no-repeat center center; background-size: cover;width: 100%;}
+.store > div{background-color: rgba(0, 0, 0, 0.5); width: 100%;}
+.store_title{text-align: center; color: #fff;}
+.store_title > span{font-family: 'Yeon Sung', cursive; font-size: 1.625em;}
+.hole_sub_tit{color: #fff;}
+.search{width: 40%; margin: 0 auto; padding-top: 0.9375rem;}
+.search > input{border: 0; outline: none; border: 1px solid #fff; background-color: #3a3a3c; color: #fff;}
+/* 
 .section{background-image: url("../img/juice_bg.png"); background-repeat: no-repeat; background-position: 108% 30%;}
 
 .choice{width: 100%; padding: 5.625rem 0;}
 .choice_tit{text-align: center;}
-.choice_tit > span{font-family: 'Yeon Sung', cursive; font-size: 1.625em;}
+.choice_tit > span{font-family: 'Yeon Sung', cursive; font-size: 1.625em; margin-top: 1rem;}
 .choice_list{text-align: center; padding: 3.125rem 0;}
 .choice_list > li{float: left; width: 24.25%; border: 1px solid #ccc; margin-right: 1%; padding: 5%; cursor: pointer;}
 .choice_list > li:hover{box-shadow: 4px 4px 5px rgba(0,0,0,0.3);}
@@ -57,7 +96,7 @@
 
 .search{width: 40%; margin: 0 auto; padding-top: 0.9375rem;}
 .search > input{border: 0; outline: none; border: 1px solid #fff; background-color: #3a3a3c; color: #fff;}
-
+ */
 .footer{background-color: #333; width: 100%;}
 .foot_logo{float: left; width: 20%; padding: 3rem 1em;}
 .foot_info{padding: 3.125rem 0; color: #fff; font-weight: bold;}
