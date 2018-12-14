@@ -29,13 +29,11 @@ $(window).scroll(function(){
     }
 });
 
-$(".navs_mo > .fa").click(function(){
-    $(this).parent().stop().animate({"left":"35%"});
-    $(".menu_mo").stop().slideToggle(300).css({"display":"block","left":0});
+$(".navi > li").mouseenter(function(){
+    $(this).css({"color":"#000"});
 });
-
-$(".drop_mo").click(function(){
-    $(this).children(li).stop().slideToggle(300);
+$(".navi > li").mouseleave(function(){
+    $(this).css({"color":"#0f54ae"});
 });
 
 $(".menu > li").mouseenter(function(){
@@ -64,3 +62,19 @@ $(".black_bg").mouseleave(function(){
 });
 
 var page = new SpaAni(".page",".anis",830);
+
+$(".navs_mo > .fa-bars").click(function(){
+    $(".menu_mo").stop().animate({"left":0}, 100);
+    $(this).hide();
+    $(this).next().show();
+});
+
+$(".navs_mo > .fa-times").click(function(){
+    $(".menu_mo").animate({"left":"-26%"}, 100);
+    $(this).prev().show();
+    $(this).hide();
+});
+
+$(".mo_click").click(function(){
+    $(this).parent().next().slideToggle();
+});
