@@ -1,4 +1,8 @@
 @import 'base.css';
+.navs {display:block;}
+.navi{display: block;}
+.navs_mo {display:none;}
+.menu_mo {display:none;}
 .wrap{width: 100%; max-width: 1200px; margin: 0 auto;}
 
 .header{background-color: #72cdff; background-image: url("../img/bg.png"),url("../img/back_bg.jpg"); background-size: cover, initial; background-repeat: no-repeat; background-position: center top, center center; padding-bottom: 750px; position: relative; overflow: hidden;}
@@ -126,4 +130,19 @@
 .foot_info{padding: 3.125rem 0; color: #fff; font-weight: bold;}
 .foot_info > span{display: block;}
 
-@media screen (max-width:)
+@media screen and (max-width:768px){
+    .navs {display:none;}
+    .navi{display: none;}
+    
+    .navs_mo {display:block;}
+    .navs_mo{background-color: #fff; width: 5%; margin: 0; border-radius: 0 10% 10% 0; padding: 3% 0;border: 1px solid #f00;}
+    .navs_mo > .fa{padding-left: 30%;}
+    .menu_mo{display: none; width:20%; height:100%; text-align: center; border: 1px solid #f00; background-color: #fff; position: absolute; top: 0; left: 0;}
+    .menu_mo > .mo_logo{margin: 10%;}
+    .menu_mo > li{position: relative; color: #666; font-weight: bold;}
+    .menu_mo > li > .mo_p{padding: 5% 0;}
+    .menu_mo > li > .click{position: absolute; top: 20%; right: 0;}
+    .menu_mo > li > .drop_mo{width:100%; background-color: #f1f1f1; display: none;}
+    .drop_mo > li{padding: 5% 0; border-bottom: 1px solid #ccc;}
+    .drop_mo > li:last-child{border-bottom:0;}
+}
