@@ -27,7 +27,7 @@
 .wt_melon{position: absolute; top: 43%; right: 23%;}
 .juice{position: absolute; bottom: 0; right: 0;}
 
-.text{position: absolute; top: 30%; left: 18%;}
+.text{position: absolute; top: 30%; width:50%; left:50%; transform:translateX(-50%);}
 .sub_title01{padding-bottom: 1em;}
 .title{padding-bottom: 1em;}
 .sub_title02{text-align: center; padding-bottom: 1.25em;}
@@ -136,7 +136,7 @@
     .leaf01{right: 8%;}
     .leaf02{right: 38%}
     .wt_melon{top:38%;right: 13%;}
-    .text{left: 8%; width: 70%;}
+    .text{width: 70%;}
 
     .choice{background-position: 105% 130%;}
 
@@ -148,7 +148,7 @@
     .leaf01{right: 3%;}
     .leaf02{right: 35%}
     .wt_melon{right: 5%;}
-    .text{left: 5%; width: 80%;}
+    .text{width: 80%;}
 
     .choice_list > li{padding: 3%;}
     .choice_list > li > .name{color: #030303; font-size: 1.25em; font-weight: bold; margin-top: 2rem; margin-bottom: 0;}
@@ -169,7 +169,6 @@
     .leaf01{right: 3%;}
     .leaf02{right: 35%}
     .wt_melon{right: -1%;}
-    .text{left: 8%; width: 80%;}
 
     .choice{padding: 6.25rem 0;background-position: 95% 130%;}
     .choice_title > img {margin-bottom:20px;}
@@ -182,11 +181,10 @@
 
 @media screen and (max-width:768px){
     html{font-size:87.5%;}
-    .header{background: url(../img/bg_bg.png) no-repeat center center;background-size: cover;}
-
+    .header { padding-bottom: 500px;background-position: 20% 30%, center top; }
     .navs {display:none;}
     .navi{display: none;}
-    .menu_mo {position:absolute; width:26%; height: 100%; top:0; left:-200px; z-index:9999999; display:block; background-color:rgba(255,255,255, 0.4); padding:3% 0;}
+    .menu_mo {position:fixed; width:26%; height: 100%; top:0; left:-26%; z-index:9999999; display:block; background-color:rgba(255,255,255, 0.4); padding:3% 0;}
     .menu_mo > .navs_mo {position:absolute; width:60px; height:60px; line-height:60px; text-align:center; font-size:2rem; top:0; right:-60px; display:block; cursor:pointer; background-color: #fff; border-radius: 0 20% 20% 0;}
     .navs_mo > .fa-times {display:none;}
     .mo_logo{padding: 5%;}
@@ -199,7 +197,7 @@
     .wt_melon{display: none;}
     .juice{width:60%;bottom: -5%;}
 
-    .text{top: 28%;}
+    .text{width:90%;}
 
     .choice_list > li{width: 49.5%;}
     .choice_list > li:nth-child(2){margin-right: 0;}
