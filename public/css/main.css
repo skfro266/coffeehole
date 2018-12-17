@@ -16,15 +16,15 @@
 .menu{color: #fff; font-weight: bold;}
 .menu > li{float: left; padding: 2em 1.125em 1.5em 1.125em; cursor: pointer; position: relative;}
 .menu_rt{text-align: right; padding-top: 2em;}
-.menu_rt > li{display: inline-block;}
+.menu_rt > li{display: inline-block; cursor: pointer;}
 .drop_menu{position: absolute; background-color: rgba(255,255,255,0.5);width: 10%; top: 100%; z-index: 999; left: 0; width: 130%; display: none;}
 .drop_menu > li{line-height: 1em; font-size: 0.75em; padding: 1em; border-bottom: 1px solid #999; color: #333;}
 .drop_menu > li:last-child{border-bottom:none;}
 
 
 .leaf01{position: absolute; top: 20%; right: 19%;}
-.leaf02{position: absolute; top: 30%; right: 40%}
-.wt_melon{position: absolute; top: 43%; right: 23%;}
+.leaf02{position: absolute; top: 30%; right: 37%}
+.wt_melon{position: absolute; top: 43%; right: 18%;}
 .juice{position: absolute; bottom: 0; right: 0;}
 
 .text{position: absolute; top: 30%; width:50%; left:50%; transform:translateX(-50%);}
@@ -134,8 +134,8 @@
 
 @media screen and (max-width:1487px){
     .leaf01{right: 8%;}
-    .leaf02{right: 38%}
-    .wt_melon{top:38%;right: 13%;}
+    .leaf02{right: 32%}
+    .wt_melon{right: 6%;}
     .text{width: 70%;}
 
     .choice{background-position: 105% 130%;}
@@ -146,8 +146,8 @@
 @media screen and (max-width:1249px){
     html{font-size:93.8%;}
     .leaf01{right: 3%;}
-    .leaf02{right: 35%}
-    .wt_melon{right: 5%;}
+    .leaf02{right: 29%}
+    .wt_melon{right: -1%;}
     .text{width: 80%;}
 
     .choice_list > li{padding: 3%;}
@@ -167,8 +167,8 @@
     .menu_rt{display: none;}
 
     .leaf01{right: 3%;}
-    .leaf02{right: 35%}
-    .wt_melon{right: -1%;}
+    .leaf02{right: 28%}
+    .wt_melon{top:39%; right: -3%;}
 
     .choice{padding: 6.25rem 0;background-position: 95% 130%;}
     .choice_title > img {margin-bottom:20px;}
@@ -193,7 +193,7 @@
     .drop_mo > li{border-bottom: 1px solid #ccc; padding: 5%;}
     .drop_mo > li:last-child{border-bottom: 0;}
 
-    .leaf02{right: 28%}
+    .leaf02{right: 25%}
     .wt_melon{display: none;}
     .juice{width:60%;bottom: -5%;}
 
